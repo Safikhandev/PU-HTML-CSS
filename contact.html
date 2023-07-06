@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>University Website Design</title>
+  </head>
+  <body>
+    <section class="aboutheader">
+      <nav>
+        <a href="index.html"
+          ><img src="images/LogoMakr-83T4kR.png" alt="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Contact Us</h1>
+    </section>
+    <!---------- End Hero section---------->
+    <section class="contactcourse">
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.84314901692!2d74.3324213!3d31.5009949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905aa78e92f71%3A0x7f140f5db7f2efbb!2sSalam%20Medical%20Complex!5e0!3m2!1sen!2s!4v1683030975609!5m2!1sen!2s" frameborder="0"></iframe>
+       
+       
+      </section>
+
+      <!-- ------  contact us  ------- -->
+      <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <div class="h1">
+  <h2>Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back <br>to you within
+      a matter of hours to help you.</p>
+    </div>
+  <div class="row">
+ <!--Grid column-->
+ <div class="col-md-3">
+  <ul class="list">
+      <li><i class="fa fa-map-marker"></i>
+          <p>San Francisco, CA 94126, USA</p>
+      </li>
+
+      <li><i class="fa fa-phone"></i>         <p>+ 01 234 567 89</p>
+      </li>
+
+      <li><i class="fa fa-envelope"></i>
+          <p>contact@mdbootstrap.com</p>
+      </li>
+  </ul>
+</div>
+<!--Grid column-->
+
+      <!--Grid column-->
+      <section class="col-md-9">
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email address" name="email" required>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"  placeholder="Message" rows="4" required></textarea>
+      
+        <input type="Submit" class="abouthero-btn" value="Send Message">
+      </form>
+    </section>
+      <!--Grid column-->
+
+     
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+      <section class="footer">
+        <h4>Contact Us</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          quod? Quisquam <br />rem est quaerat rerum expedita iste, maxime nihil?
+          Ullam.
+        </p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+          <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+        </div>
+      </section>
+     <!------  Javascript for Toggle Menu   ------>
+     <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+      </body>
+</html>
